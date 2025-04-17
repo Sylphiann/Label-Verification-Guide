@@ -8,7 +8,21 @@ Lorem ipsum
 
 ## Petunjuk penggunaan Label-Studio
 
-Lorem ipsum
+1. ### Memberikan label kepada sebuah entitas
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ?modestbranding=1&rel=0" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+2. ### Menghapus label dari sebuah entitas
+
+3. ### Mengganti label sebuah entitas
+
+4. ### Menyelesaikan hasil verifikasi sebuah dokumen
 
 ## Petunjuk Label yang digunakan
 
