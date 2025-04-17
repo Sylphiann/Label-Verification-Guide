@@ -13,7 +13,7 @@ Lorem ipsum
 <iframe 
   width="560" 
   height="315" 
-  src="https://youtu.be/zTNfcWTmmqk?modestbranding=1&rel=0" 
+  src="https://www.youtube.com/embed/zTNfcWTmmqk?modestbranding=1&rel=0" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
@@ -23,7 +23,7 @@ Lorem ipsum
 <iframe 
   width="560" 
   height="315" 
-  src="https://youtu.be/HMYS0lkvB74?modestbranding=1&rel=0" 
+  src="https://www.youtube.com/embed/HMYS0lkvB74?modestbranding=1&rel=0" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
@@ -33,7 +33,7 @@ Lorem ipsum
 <iframe 
   width="560" 
   height="315" 
-  src="https://youtu.be/-zOutDnQA-I?modestbranding=1&rel=0" 
+  src="https://www.youtube.com/embed/-zOutDnQA-I?modestbranding=1&rel=0" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
