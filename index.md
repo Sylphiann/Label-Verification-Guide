@@ -18,6 +18,18 @@ Lorem ipsum
   allowfullscreen>
 </iframe>
 
+Klik label yang ingin digunakan.
+
+![alt text](img/img-1.png)
+
+*Highlight* bagian text yang ingin dilabelkan sebagai entitas.
+
+![alt text](img/img-2.png)
+
+Label berhasil dilakukan.
+
+![alt text](img/img-3.png)
+
 2. ### Menghapus label dari sebuah entitas
 
 <iframe 
@@ -28,6 +40,19 @@ Lorem ipsum
   allowfullscreen>
 </iframe>
 
+Klik label yang ingin dihapus.
+
+![alt text](img/img-3.png)
+
+tekan tombol delete yang berada di *dashboard* bagian kana layar.
+
+![alt text](img/img-4.png)
+
+Penghapusan Label berhasil dilakukan.
+
+![alt text](img/img-5.png)
+
+
 3. ### Mengganti label sebuah entitas
 
 <iframe 
@@ -37,6 +62,19 @@ Lorem ipsum
   frameborder="0" 
   allowfullscreen>
 </iframe>
+
+Klik label yang ingin diubah.
+
+![alt text](img/img-3.png)
+
+Klik label baru pengubahan.
+
+![alt text](img/img-6.png)
+
+Label berhasil diubah.
+
+![alt text](img/img-7.png)
+
 
 4. ### Menyelesaikan hasil verifikasi sebuah dokumen
 
