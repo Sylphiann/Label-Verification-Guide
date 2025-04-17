@@ -1,6 +1,14 @@
 # Panduan Verifikasi Label
 
-TODO: List of Content
+- [Instruksi verifikasi label](#instruksi-verifikasi-label)
+- [Petunjuk penggunaan Label-studio](#petunjuk-penggunaan-label-studio)
+   - [Memberikan label](#memberikan-label-kepada-sebuah-entitas)
+   - [Menghapus label](#menghapus-label-dari-sebuah-entitas)
+   - [Mengubah label](#mengganti-label-sebuah-entitas)
+   - [Menyelesaikan verifikasi](#menyelesaikan-hasil-verifikasi-sebuah-dokumen)
+- [Petunjuk label yang digunakan](#petunjuk-label-yang-digunakan)
+   - [Daftar label](#daftar-label)
+   - [Detail dan contoh label](#definisi-dan-contoh-masing-masing-label)
 
 ## Instruksi Verifikasi Label
 
