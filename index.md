@@ -1,8 +1,20 @@
-# Panduan Verifikasi Label Studio
+# Panduan Verifikasi Label
 
 TODO: List of Content
 
-## Daftar Label
+## Instruksi Verifikasi Label
+
+Lorem ipsum
+
+## Petunjuk penggunaan Label-Studio
+
+Lorem ipsum
+
+## Petunjuk Label yang digunakan
+
+Berikut adalah label-label yang digunakan untuk diverifikasi:
+
+### Daftar Label
 
 | Label           | Nama Label                       | Penjelasan Singkat                                                     |
 |:---------------:|:-------------------------------- |:---------------------------------------------------------------------- |
@@ -14,87 +26,226 @@ TODO: List of Content
 | [**LAN**](#lan) | Language                         | Nama bahasa                                                            |
 | [**LAW**](#law) | Law                              | Nama hukum                                                             |
 | [**LOC**](#loc) | Location                         | Lokasi secara general                                                  |
-| [**MON**](#mon) | Money                            | Nama mata uang                                                         |
+| [**MON**](#mon) | Money                            | Jumlah dan nama mata uang                                              |
 | [**ORD**](#ord) | Ordinal                          | Nomor ordinal                                                          |
 | [**ORG**](#org) | Organization                     | Nama perkumpulan atau organisasi                                       |
 | [**PCN**](#pcn) | Percentage                       | Nilai Persen                                                           |
 | [**PER**](#per) | Person                           | Nama seseorang                                                         |
 | [**PRO**](#pro) | product                          | Nama sebuah produk                                                     |
-| [**QUN**](#qun) | Quantity                         | Nilai jumlah                                                           |
 | [**TIM**](#tim) | Time                             | Waktu                                                                  |
 | [**WOA**](#woa) | Work or Art                      | Nama sebuah karya seni                                                 |
 | [**URL**](#url) | *Uniform Resource Locator* (URL) | Alamat sebuah *web*                                                    |
 
 ### Definisi dan Contoh Masing-Masing Label
 
-1. ###### CAR
+1. #### CAR
    
-   Lorem Ipsum dolor sit amet
-
-2. ###### DAT
+   Entitas angka yang menggambarkan jumlah sesuatu. Pada proses verifikasi label ini, entitas berupa jumlah halaman yang ditunjukkan dalam sitasi, juga dimasukkan sebagai anggota label ini. 
    
-   Lorem Ipsum dolor sit amet
-
-3. ###### EVN
+   Contoh:
    
-   Lorem Ipsum dolor sit amet
-
-4. ###### FAC
+   - Tadi pagi, saya memakan 5 apel dan dua pisang.
    
-   Lorem Ipsum dolor sit amet
-
-5. ###### GPE
+   - Pertengahan 1949, ia diminta Wakil Presiden RI, Hatta, untuk turut menjemput tokoh-tokoh PDRI di Sumatera Tengah (Chaniago, 1981: 87-95, 119)
    
-   Lorem Ipsum dolor sit amet
-
-6. ###### LAN
+   Menjadi:
    
-   Lorem Ipsum dolor sit amet
-
-7. ###### LAW
+   - Tadi pagi, saya memakan [**CAR 5**] apel dan [**CAR dua**] pisang.
    
-   Lorem Ipsum dolor sit amet
+   - Pertengahan 1949, ia diminta Wakil Presiden RI, Hatta, untuk turut menjemput tokoh-tokoh PDRI di Sumatera Tengah (Chaniago, 1981: [**CAR 87-95**], [**CAR 119**])
 
-8. ###### LOC
+2. #### DAT
    
-   Lorem Ipsum dolor sit amet
-
-9. ###### MON
+   Entitas yang menjujukkan sebuah tanggal.
    
-   Lorem Ipsum dolor sit amet
+   Contoh:
+   
+   - Ia lahir pada 13 Agustus 1871 di Palembayan, Agam, Sumatra Barat, dan meninggal pada 16 Oktober 1937 di GPE Bandung.
+   
+   Menjadi:
+   
+   - Ia lahir pada [**DAT 13 Agustus 1871**] di Palembayan, Agam, Sumatra Barat, dan meninggal pada [**DAT 16 Oktober 1937**] di Bandung.
 
-10. ###### ORD
-    
-    Lorem Ipsum dolor sit amet
+3. #### EVN
+   
+   Entitas yang menjujukkan sebuah kejadian atau peristiwa.
+   
+   Contoh:
+   
+   - Kemudian, pada [EVN Kongres Sarekat Islam kedua] yang dilaksanakan di [GPE Jakarta] pada [DAT 1917], [PER Abdul Moeis] mengusulkan agar [ORG Sarekat Islam] bergabung dengan [ORG Volksraad]. Adapun alasan [PER Abdul Moeis] mengajukan usulan ini karena, menurutnya jika [ORG SI] bergabung dengan [ORG Volksraad]
+   
+   Menjadi:
+   
+   - Kemudian, pada [EVN Kongres Sarekat Islam kedua] yang dilaksanakan di [GPE Jakarta] pada [DAT 1917], [PER Abdul Moeis] mengusulkan agar [ORG Sarekat Islam] bergabung dengan [ORG Volksraad]. Adapun alasan [PER Abdul Moeis] mengajukan usulan ini karena, menurutnya jika [ORG SI] bergabung dengan [ORG Volksraad]
 
-11. ###### ORG
-    
-    Lorem Ipsum dolor sit amet
+4. #### FAC
+   
+   Entitas bangunan atau fasilitas buatan manusia, seperti "Bandara Soekarno-Hatta" atau "Jembatan Suramadu".​
+   
+   Contoh:
+   
+   - Saleh bersama dengan Komodor Udara Agustinus Adisutjipto dan Opsir Muda Udara Adisoemarmo Wirjokusumo gugur dalam peristiwa penembakan jatuh pesawat angkut C-47 Dakota VT-CLA di atas Pangkalan Udara Maguwo, Yogyakarta (kini Lanud Adisucipto) (Subdirsejarah: 140-44)
+   
+   Menjadi:
+   
+   - Saleh bersama dengan Komodor Udara Agustinus Adisutjipto dan Opsir Muda Udara Adisoemarmo Wirjokusumo gugur dalam peristiwa penembakan jatuh pesawat angkut C-47 Dakota VT-CLA di atas [**FAC Pangkalan Udara Maguwo**], Yogyakarta (kini [**FAC Lanud Adisucipto**]) (Subdirsejarah: 140-44)
 
-12. ###### PCN
-    
-    Lorem Ipsum dolor sit amet
+5. #### GPE
+   
+   Entitas wilayah yang memiliki pemerintahan, seperti desa, kota, atau negara.
+   
+   Pada contoh yang sama:
+   
+   - Ia lahir pada 13 Agustus 1871 di Palembayan, Agam, Sumatra Barat, dan meninggal pada 16 Oktober 1937 di GPE Bandung.
+   
+   Menjadi:
+   
+   - Ia lahir pada 13 Agustus 1871 di [**GPE Palembayan**], [**GPE Agam**], [**GPE Sumatra Barat**], dan meninggal pada 16 Oktober 1937 di [**GPE Bandung**]
 
-13. ###### PER
-    
-    Lorem Ipsum dolor sit amet
+6. #### LAN
+   
+   Entitas yang berupa nama bahasa, seperti "Bahasa Indonesia" atau "Bahasa Inggris".
+   
+   Contoh:
+   
+   - Inggit berperan sebagai pendamping yang loyal, sekaligus menjadi penerjemah jika masyarakat setempat hanya memahami bahasa Sunda.
+   
+   Menjadi:
+   
+   - Inggit berperan sebagai pendamping yang loyal, sekaligus menjadi penerjemah jika masyarakat setempat hanya memahami [**LAN bahasa Sunda**].
 
-14. ###### PRO
-    
-    Lorem Ipsum dolor sit amet
+7. #### LAW
+   
+   Entitas yang berupa nama peraturan atau undang-undang, seperti "UU ITE".
+   
+   Contoh:
+   
+   - Palar dianugerahi gelar Pahlawan Nasional bertepatan dengan Hari Pahlawan pada tanggal 10 November 2013 oleh Presiden Susilo Bambang Yudhoyono berdasarkan Keppres No. 68/TK/Tahun 2013 tanggal 06 November 2013.
+   
+   Menjadi:
+   
+   - Palar dianugerahi gelar Pahlawan Nasional bertepatan dengan Hari Pahlawan pada tanggal 10 November 2013 oleh Presiden Susilo Bambang Yudhoyono berdasarkan [**LAW Keppres No. 68/TK/Tahun 2013**] tanggal 06 November 2013.
 
-15. ###### QUN
-    
-    Lorem Ipsum dolor sit amet
+8. #### LOC
+   
+   Entitas tempat atau lokasi geografis yang tidak memiliki pemerintahan, seperti "Gunung Everest" atau "Laut Jawa".
+   
+   Contoh:
+   
+   - Namun, Tirto akhirnya dihukum dengan dibuang ke Teluk Betung Lampung yang berhasil menggugat kembali Tirto pada masa Gubernur Jenderal Idenburg, pengganti Van Heutsz (Toer, 2003: 73; Dahlan, 2007: 5).
+   
+   Menjadi:
+   
+   - Namun, Tirto akhirnya dihukum dengan dibuang ke [**LOC Teluk Betung Lampung**] yang berhasil menggugat kembali Tirto pada masa Gubernur Jenderal Idenburg, pengganti Van Heutsz (Toer, 2003: 73; Dahlan, 2007: 5).
 
-16. ###### TIM
-    
-    Lorem Ipsum dolor sit amet
+9. #### MON
+   
+   Entitas yang dapat berupa jumlah uang serta nama mata uang yang digunakan, seperti "Rp100.000" atau "5 dolar".
+   
+   Contoh:
+   
+   - Sebagai murid yang diterima, mereka berhak mendapat tunjangan 70 gulden dan pakaian seragam lengkap dengan koppel riemnya.
+   
+   Menjadi:
+   
+   - Sebagai murid yang diterima, mereka berhak mendapat tunjangan [**MON 70 gulden**] dan pakaian seragam lengkap dengan koppel riemnya.
 
-17. ###### WOA
+10. #### ORD
     
-    Lorem Ipsum dolor sit amet
+    Entitas angka yang menunjukkan urutan, seperti "pertama" atau "ke-3".
+    
+    Contoh:
+    
+    - Ia adalah sebagai putera ke-7 dari Mas Sastrowardojo dan Roepeni.
+    - Pada 1921, Hatta lulus dari Sekolah Dagang PHS dan meraih peringkat tiga terbaik.
+    
+    Menjadi:
+    
+    - Ia adalah sebagai putera [**ORD ke-7**] dari Mas Sastrowardojo dan Roepeni.
+    - Pada 1921, Hatta lulus dari Sekolah Dagang PHS dan meraih peringkat [**ORD tiga**] terbaik.
 
-18. ###### URL
+11. #### ORG
     
-    Lorem Ipsum dolor sit amet
+    Entitas organisasi atau lembaga, seperti "PBB" atau "Universitas Indonesia".
+    
+    Contoh:
+    
+    - Kemudian, pada Kongres Sarekat Islam kedua yang dilaksanakan di Jakarta pada 1917, Abdul Moeis mengusulkan agar Sarekat Islam bergabung dengan Volksraad. Adapun alasan Abdul Moeis mengajukan usulan ini karena, menurutnya jika SI bergabung dengan Volksraad.
+    
+    Menjadi:
+    
+    - Kemudian, pada Kongres Sarekat Islam kedua yang dilaksanakan di Jakarta pada 1917, Abdul Moeis mengusulkan agar [**ORG Sarekat Islam**] bergabung dengan [**ORG Volksraad**]. Adapun alasan Abdul Moeis mengajukan usulan ini karena, menurutnya jika [**ORG SI**] bergabung dengan [**ORG Volksraad**].
+
+12. #### PCN
+    
+    Entitas persentase, seperti "20%" atau "setengah persen".​
+    
+    Contoh:
+    
+    - Ketika kekuasaan Ibnu Sutowo akan berakhir, produksi minyak tumbuh sekitar 15% ( 1968-1969) dan hampir 20% pada tahun 1970 ( Ricklefs, 2008: 612-613)
+    
+    Menjadi:
+    
+    - Ketika kekuasaan Ibnu Sutowo akan berakhir, produksi minyak tumbuh sekitar [**PCN 15%**] (1968-1969) dan hampir [**PCN 20%**] pada tahun 1970  (Ricklefs, 2008: 612-613)
+
+13. #### PER
+    
+    Entitas yang menjujukkan nama atau julukan seseorang. Dalam kasus ini, *prefix* dan *suffix* yang dapat berupa pangkat (`Kolonel-` atau `Presiden-`) atau *title* (`Dr.-` atau `- S.Kom.`) seseorang, juga termasuk sebagai satu entitas.
+    
+    Contoh:
+    
+    - Saleh bersama dengan Komodor Udara Agustinus Adisutjipto dan Opsir Muda Udara Adisoemarmo Wirjokusumo gugur dalam peristiwa penembakan jatuh pesawat angkut C-47 Dakota VT-CLA di atas Pangkalan Udara Maguwo, Yogyakarta (kini Lanud Adisucipto) (Subdirsejarah: 140-44)
+    
+    Menjadi:
+    
+    - [**PER Saleh**] bersama dengan [**PER Komodor Udara Agustinus Adisutjipto**] dan [**PER Opsir Muda Udara Adisoemarmo Wirjokusumo**] gugur dalam peristiwa penembakan jatuh pesawat angkut C-47 Dakota VT-CLA di atas Pangkalan Udara Maguwo, Yogyakarta (kini Lanud Adisucipto) (Subdirsejarah: CAR 140-44)
+
+14. #### PRO
+    
+    Entitas yang dapat berupa nama sebuah produk atau barang. Jenis atau tipe produk tidak dimasukkan sebagai entitas, menyisakan namanya saja.
+    
+    Contoh:
+    
+    - Saleh bersama dengan Komodor Udara Agustinus Adisutjipto dan Opsir Muda Udara Adisoemarmo Wirjokusumo gugur dalam peristiwa penembakan jatuh pesawat angkut C-47 Dakota VT-CLA di atas Pangkalan Udara Maguwo, Yogyakarta (kini Lanud Adisucipto) (Subdirsejarah: 140-44)
+    
+    Menjadi:
+    
+    - Saleh bersama dengan Komodor Udara Agustinus Adisutjipto dan Opsir Muda Udara Adisoemarmo Wirjokusumo gugur dalam peristiwa penembakan jatuh pesawat angkut [**PRO C-47 Dakota VT-CLA**] di atas Pangkalan Udara Maguwo, Yogyakarta (kini Lanud Adisucipto) (Subdirsejarah: 140-44)
+
+15. #### TIM
+    
+    Entitas waktu spesifik dalam sehari, seperti "pukul 10 pagi" atau "jam 3 sore".
+    
+    Contoh:
+    
+    - Naskah proklamasi itu kemudian dikumandangkan di rumah Sukarno pada pagi harinya, bersamaan dengan pengibaran bendera sang saka merah putih jahitan Fatmawati.
+    - Pada akhirnya Gurnam Singh mampu mengungguli saingan terberatnya kala itu, yakni Liem San Lee, dengan torehan waktu 36 menit 9 detik (Indische Courant voor Nederland, 17 November 1954)
+    
+    Menjadi:
+    
+    - Naskah proklamasi itu kemudian dikumandangkan di rumah Sukarno pada [**TIM pagi harinya**], bersamaan dengan pengibaran bendera sang saka merah putih jahitan Fatmawati.
+    - Pada akhirnya Gurnam Singh mampu mengungguli saingan terberatnya kala itu, yakni Liem San Lee, dengan torehan waktu [**TIM 36 menit 9 detik**] ( Indische Courant voor Nederland, 17 November 1954)
+
+16. #### WOA
+    
+    Entitas karya seni atau sastra, seperti "Laskar Pelangi" atau "Monalisa". Dalam kasus tertentu, nama majalah yang menjadi sitasi juga diikutsertakan dalam label ini.
+    
+    - Pada akhirnya Gurnam Singh mampu mengungguli saingan terberatnya kala itu, yakni Liem San Lee, dengan torehan waktu 36 menit 9 detik (WOA Indische Courant voor Nederland, 17 November 1954).
+    - Semenjak kecil, ia berkenalan dengan syair-syair dan tulisan dalam dunia sastra Melayu tradisional, di antaranya adalah Hikayat Hang Tuah, Hikayat Panca Tanderan, hingga Sejarah Melayu (Ridho, 2019: 66; Dumadi, 1993: 57).
+    
+    Menjadi:
+    
+    - Pada akhirnya Gurnam Singh mampu mengungguli saingan terberatnya kala itu, yakni Liem San Lee, dengan torehan waktu 36 menit 9 detik ([**WOA Indische Courant voor Nederland**], 17 November 1954).
+    - Semenjak kecil, ia berkenalan dengan syair-syair dan tulisan dalam dunia sastra Melayu tradisional, di antaranya adalah [**WOA Hikayat Hang Tuah**], [**WOA Hikayat Panca Tanderan**], hingga [**WOA Sejarah Melayu**] (Ridho, 2019: 66; Dumadi, 1993: 57).
+
+17. #### URL
+    
+    Entitas yang berupa Alamat sebuah *web*.
+    
+    Contoh:
+    
+    - Sultan Hamid II wafat di Jakarta pada 30 Maret 1978 ketika sedang menjalankan Sholat Maghrib. Jenazahnya dimakamkan di pemakaman keluarga Kesultanan Pontianak di Batulayang ( https://historia.id/politik/articles/lima-fakta-tentang-sultan-hamid-ii-vXl3X/page/3 ).
+    
+    Menjadi:
+    
+    - Sultan Hamid II wafat di Jakarta pada 30 Maret 1978 ketika sedang menjalankan Sholat Maghrib. Jenazahnya dimakamkan di pemakaman keluarga Kesultanan Pontianak di Batulayang ( [**URL** https://historia.id/politik/articles/lima-fakta-tentang-sultan-hamid-ii-vXl3X/page/3 **]**).
