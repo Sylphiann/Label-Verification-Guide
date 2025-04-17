@@ -13,16 +13,36 @@ Lorem ipsum
 <iframe 
   width="560" 
   height="315" 
-  src="https://www.youtube.com/embed/dQw4w9WgXcQ?modestbranding=1&rel=0" 
+  src="https://youtu.be/zTNfcWTmmqk?modestbranding=1&rel=0" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
 
 2. ### Menghapus label dari sebuah entitas
 
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://youtu.be/HMYS0lkvB74?modestbranding=1&rel=0" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
 3. ### Mengganti label sebuah entitas
 
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://youtu.be/-zOutDnQA-I?modestbranding=1&rel=0" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
 4. ### Menyelesaikan hasil verifikasi sebuah dokumen
+
+Ketika seluruh label dalam dokumen telah diverifikasi kebenarannya. Klik tombol `Submit` berikut yang berada di bagian bawah layar.  
+
+![alt text](img/image.png)
 
 ## Petunjuk Label yang digunakan
 
