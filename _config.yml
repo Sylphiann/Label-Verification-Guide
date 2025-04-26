@@ -1,5 +1,5 @@
 remote_theme: pages-themes/slate@v0.2.0
-title: [Panduan Verifikasi Label]
-description: [Artikel panduan proses verifikasi label-label entitas terhadap kumpulan text sejarah.]
+title: Panduan Verifikasi Label
+description: Artikel panduan proses verifikasi label-label entitas terhadap kumpulan text sejarah.
 plugins:
 - jekyll-remote-theme

@@ -33,12 +33,12 @@ Ketika anda berhasil sudah pernah melakukan registrasi terhadap web anotasi sebe
 
 ### 4. Mengakses *Dashboard* utama label-studio
 
-Ketika anda telah berhasil melakukan autentikasi ke dalam web anotasi `sylphian.me`, anda akan memasuki halaman `Dashboard` utama. Pada halaman ini, anda akan diberikan dua buah project, yaitu `Project A` dan `Project B`.
+Ketika anda telah berhasil melakukan autentikasi ke dalam web anotasi `sylphian.me`, anda akan memasuki halaman `Dashboard` utama. Pada halaman ini, anda akan diperlihatkan project-project yang dapat anda akses, beberapa diantaranya adalah `Project A`, `Project B`, dan `Project C`.
 
 <img src="img/dashboard.png" height="auto" width="640" style="border: 2px solid #333; border-radius:2%">
 <div style="text-align: center;">Halaman dashboard, dengan project A dan project B di dalamnya</div>
 
-Masing-masing dari kedua project tersebut memiliki `902` dokumen untuk anda (anotator) anotasikan, sehingga total dokumen yang akan dinotasi adalah `1804`.  
+Masing-masing dari kedua project tersebut memiliki `~601` dokumen untuk anda (anotator) anotasikan, dengan total dokumen yang akan dinotasi adalah `1804`.  
 
 ### 5. Mengakses salah-satu Project dalam label-studio
 
@@ -52,9 +52,40 @@ Ketika anda telah mengakses salah satu project yang dipilih melalui dashboard, m
 <img src="img/project.png" height="auto" width="640" style="border: 2px solid #333; border-radius:2%">
 <div style="text-align: center;">Halaman Project A</div>
 
+### 6. Navigasi Project dalam label-studio
+
 Pada halaman project, anda akan diperlihatkan kumpulan **dokumen**-**dokumen** yang anda akan anotasi. Berikut adalah detail dari list dokumen yang perlu anda perhatikan:
-- Lorem ipsum
-- Lorem ipsum
+
+<img src="img/project-highlight.png" height="auto" width="640" style="border: 2px solid #333; border-radius:2%">
+<div style="text-align: center;">Detail-detail dalam sebuah project</div>
+
+- Kotak **<code><span style="color: blue;">BIRU</span></code>** merupakan atribut utama yang mendefiniskan sebuah entry, sepert:
+    - **text** Merupakan isi tulisan yang berada di dalam dokumen tersebut, untuk di anotasikan.  
+    - **id** adalah nomor unik dari yang berperan sebagai nomor identitas dari setiap dokumennya.
+    - **judul** adalah judul dari dokumen tersebut.
+- Kotak **<code><span style="color: red;">MERAH</span></code>** merupakan *list* atau kumpulan dokumen yang perlu anda notasikan.
+    
+- Kotak **<code><span style="color: green;">HIJAU</span></code>** merupakan atribut status anotasi yang ada pada masing-masing dokumen, seperti:
+    - **Completed** merupakan status yang menandakan apakah dokumen tersebut **sudah** selesai dianotasikan. Jika kolom tersebut masih kosong untuk suatu dokumen, artinya dokumen tersebut belum selesai dianotasi.
+    - **Annotated by** merupakan penanda siapakah yang telah menyelesaikan anotasi pada dokumen tersebut. Jika kolom tersebut masih kosong untuk suatu dokumen, artinya dokumen tersebut juga belum selesai dianotasi.
+    - Klik [tautan berikut]() untuk melihat cara menyelesaikan proses anotasi.
+
+<img src="img/sort.png" height="auto" width="640" style="border: 2px solid #333; border-radius:2%">
+<div style="text-align: center;">Melakukan sorting terhadap dokumen</div>
+
+Anda juga dapat melakukan *sorting* terhadap dokumen yang ingin anda anotasikan. Salah satu hal yang paling berguna untuk fitur ini adalah melakukan *sorting* terhadap dokumen-dokumen yang belum anda anotasikan untuk *berada di paling atas*, dengan memasukkan atribut `Completed` pada tahap *sorting*.
+
+### 7. Mengakses dokumen anotasi dalam Project label-studio
+
+Anda dapat membuka dokumen yang dituju untuk melakukan **anotasi** pada dokumen tersebut, dengan menekan area dokumen yang berkaitan, seperti yang diperlihatkan pada gambar berikut ini.
+
+<img src="img/dokumen-click.png" height="auto" width="640" style="border: 2px solid #333; border-radius:2%">
+<div style="text-align: center;">Melakukan sorting terhadap dokumen</div>
+
+Setelah anda melakukan tahap tersebut, anda akan ditujukan kepada halaman anotasi pada dokumen tersebut, seperti yang diperlihatkan pada gambar berikut ini.
+
+<img src="img/dokumen.png" height="auto" width="640" style="border: 2px solid #333; border-radius:2%">
+<div style="text-align: center;">Halaman anotasi dokumen</div>
 
 # Kontak Developer
 
